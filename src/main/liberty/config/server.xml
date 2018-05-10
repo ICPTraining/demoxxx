@@ -1,8 +1,9 @@
 <server description="Sample Liberty server">
 
   <featureManager>
-      <feature>microprofile-1.2</feature>
+      <feature>microprofile-1.0</feature>
       <feature>jndi-1.0</feature>
+      <feature>logstashCollector-1.0</feature>
   </featureManager>
 
   <httpEndpoint httpPort="${default.http.port}" httpsPort="${default.https.port}"
